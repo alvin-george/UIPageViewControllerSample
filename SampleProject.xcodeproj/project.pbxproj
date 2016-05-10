@@ -14,6 +14,7 @@
 		5D3198DA1CDB57EF004C72EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D3198D81CDB57EF004C72EE /* LaunchScreen.storyboard */; };
 		5D3198E51CDB57EF004C72EE /* SampleProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3198E41CDB57EF004C72EE /* SampleProjectTests.swift */; };
 		5D3198F01CDB57EF004C72EE /* SampleProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3198EF1CDB57EF004C72EE /* SampleProjectUITests.swift */; };
+		5D6A97871CE1FAE800F22549 /* PageItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6A97861CE1FAE800F22549 /* PageItemController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		5D3198EB1CDB57EF004C72EE /* SampleProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D3198EF1CDB57EF004C72EE /* SampleProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleProjectUITests.swift; sourceTree = "<group>"; };
 		5D3198F11CDB57EF004C72EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D6A97861CE1FAE800F22549 /* PageItemController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageItemController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				5D3198D61CDB57EF004C72EE /* Assets.xcassets */,
 				5D3198D81CDB57EF004C72EE /* LaunchScreen.storyboard */,
 				5D3198DB1CDB57EF004C72EE /* Info.plist */,
+				5D6A97861CE1FAE800F22549 /* PageItemController.swift */,
 			);
 			path = SampleProject;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D6A97871CE1FAE800F22549 /* PageItemController.swift in Sources */,
 				5D3198D21CDB57EF004C72EE /* ViewController.swift in Sources */,
 				5D3198D01CDB57EF004C72EE /* AppDelegate.swift in Sources */,
 			);
@@ -484,6 +488,7 @@
 				5D3198F61CDB57EF004C72EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D3198F71CDB57EF004C72EE /* Build configuration list for PBXNativeTarget "SampleProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				5D3198F91CDB57EF004C72EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D3198FA1CDB57EF004C72EE /* Build configuration list for PBXNativeTarget "SampleProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				5D3198FC1CDB57EF004C72EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
